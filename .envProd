@@ -1,5 +1,0 @@
-PGHOST=ep-falling-morning-a5l5xjxs.us-east-2.aws.neon.tech
-PGDATABASE=neondb
-PGUSER=neondb_owner
-PGPASSWORD=yQLgJsxm9jb5
-PGPORT=5432

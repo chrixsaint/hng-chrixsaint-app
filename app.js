@@ -14,15 +14,7 @@ app.use(express.json());
 
 app.get('/', (req, res) => {
   res.status(200).json({
-    message: 'Welcome to your HNG11  Stage two to Task, see endpoints below',
-    register:'[POST]auth / register',
-    login : '[POST]auth / login',
-    getByUser : '[GET]/ api / users / {id}',
-    getOrganizations : '[GET]/ api / organiztions',
-    getOrganizationById : '[GET]/ api/ organizations / {orgId}',
-    creatOrganization : '[POST]/ api/ organizations',
-    addUserToOrganiztion : '[POST]/ api/ organizations / {orgId} / users, requst{userId:{userId}}'
-  
+    message: 'You are welcome to the organization API',
   });
 });
 
